@@ -59,13 +59,37 @@ footer { background: #1a3050; padding: 20px 24px; display: flex; align-items: ce
 .footer-ig a { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid rgba(255,255,255,0.4); color: rgba(255,255,255,0.8); text-decoration: none; transition: border-color 0.2s, color 0.2s; }
 .footer-ig a:hover { border-color: #fff; color: #fff; }
 
+
+
 /* PAGE BANNER */
-.page-banner { width: 100%; height: 280px; position: relative; overflow: hidden; background: #0d1b2a; display: flex; align-items: flex-end; }
-.page-banner img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: brightness(0.45); }
-.page-banner-title { position: relative; z-index: 1; padding: 0 48px 28px; color: #fff; font-size: clamp(28px, 4vw, 48px); font-weight: 700; text-shadow: 0 2px 8px rgba(0,0,0,0.5); }
-
 .inner-wrap { max-width: 980px; margin: 0 auto; padding: 52px 40px 80px; }
-
+.page-banner { 
+    width: 100%; 
+    height: 500px; /* <--- Here is your 500px height (no !important needed!) */
+    position: relative; 
+    overflow: hidden; 
+    background: #0d1b2a; 
+    display: flex; 
+    align-items: flex-end; 
+}
+.page-banner img { 
+    position: absolute; 
+    inset: 0; 
+    width: 100%; 
+    height: 100%; /* <--- Here is your resizing rule */
+    object-fit: cover; /* <--- Here is your resizing rule */
+    object-position: 50% 75%; /* <--- Here is your perfect field positioning! */
+    filter: brightness(0.8); 
+}
+.page-banner-title { 
+    position: relative; 
+    z-index: 1; 
+    padding: 0 48px 28px; 
+    color: #fff; 
+    font-size: clamp(28px, 4vw, 48px); 
+    font-weight: 700; 
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8); 
+}
 /* ABOUT */
 .about-intro { font-size: 16px; color: #444; line-height: 1.85; margin-bottom: 48px; }
 .section-heading { font-size: clamp(22px, 2.5vw, 32px); font-weight: 700; color: #073763; margin-bottom: 32px; }
@@ -107,17 +131,7 @@ footer { background: #1a3050; padding: 20px 24px; display: flex; align-items: ce
     object-fit: cover;
     border-radius: 8px; /* Optional: adds a nice rounded corner */
 }
-.page-banner {
-    height: 500px !important;
-    overflow: hidden; 
-}
 
-.page-banner img {
-    width: 100%;
-    height: 100%; /* This makes the image fill the new height */
-    object-fit: cover;
-    object-position: 50% 75%; 
-}
 .facility-card-body { padding: 16px 18px 18px; background: #f8f9fb; }
 .facility-card-body h3 { font-size: 15px; font-weight: 700; color: #073763; margin-bottom: 6px; }
 .facility-card-body p { font-size: 13px; color: #555; line-height: 1.6; }
