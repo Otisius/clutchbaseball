@@ -107,11 +107,15 @@ footer { background: #1a3050; padding: 20px 24px; display: flex; align-items: ce
     object-fit: cover;
     border-radius: 8px; /* Optional: adds a nice rounded corner */
 }
+.page-banner {
+    height: 600px !important;
+    overflow: hidden; /* This keeps the image from leaking out */
+}
+
 .page-banner img {
     width: 100%;
-    height: 600px;
+    height: 100%; /* This makes the image fill the new 600px height */
     object-fit: cover;
-    /* The first value is left/right (keep at 50%), the second is up/down */
     object-position: 50% 75%; 
 }
 .facility-card-body { padding: 16px 18px 18px; background: #f8f9fb; }
