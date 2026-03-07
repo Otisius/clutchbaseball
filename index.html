@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
     <div class="nav-inner">
         <a class="logo-wrap" href="index.html">
-            <div class="logo-icon">
-                <img src="logo.png" alt="Clutch Baseball" onerror="this.style.display='none'">
-            </div>
+            <img class="logo-img" src="logo.png" alt="Clutch Baseball">
             Clutch Baseball
         </a>
         <button class="menu-toggle" id="menuBtn" aria-label="Menu">
@@ -33,26 +30,19 @@
         </button>
     </div>
 </header>
-
 <main>
-
-    <!-- ── HERO ── -->
     <div class="hero-banner">
         <img class="hero-bg"
             src="https://lh3.googleusercontent.com/sitesv/APaQ0SRWvjcZqFU92rcqbLHqiiGDvHZDbtMigUNrc31IxCkJJYe9c7d2DZhTHARDunDUk0LmVvazuILvLcNudN7TZAK-sKswHr549cz2ZlJ-nPKWXnlhT0aBZDoVpG8Yq561sBRYcPnYS2hTKc-7UhJhL0v5thqXWzG3xj0puj-p7uuU2BQJMZ8p3t3zosP-dHuqKTg38JV0lUhDJrBurtipdNvSKqwyUOHwPpCyQUY=w1280"
             alt="Clutch Baseball"
             onerror="this.parentElement.style.background='#0d1b2a'">
         <div class="hero-overlay">
-            <img class="hero-logo"
-                src="logo.png"
-                alt="Clutch Baseball"
-                onerror="this.style.display='none'">
+            <img class="hero-logo" src="logo.png" alt="Clutch Baseball" onerror="this.style.display='none'">
             <div class="hero-text">CLUTCH BASEBALL</div>
         </div>
         <a class="scroll-chevron" href="#offer-section">&#8964;</a>
     </div>
 
-    <!-- ── WHAT WE OFFER ── -->
     <section id="offer-section" class="what-we-offer">
         <h2>What We Offer</h2>
         <div class="offer-grid">
@@ -67,14 +57,12 @@
                 <h3>Group Training</h3>
             </div>
             <div class="offer-card">
-                <img src="standing.jpg"
-                    alt="Camps" onerror="this.src='https://placehold.co/640x480/dde5ee/073763?text=Camps'">
+                <img src="standing.jpg" alt="Camps" onerror="this.src='https://placehold.co/640x480/dde5ee/073763?text=Camps'">
                 <h3>Camps</h3>
             </div>
         </div>
     </section>
 
-    <!-- ── CTA BAND ── -->
     <div class="cta-band">
         <img class="cta-band-bg" src="teamwin.jpg" alt="">
         <div class="cta-band-content">
@@ -95,9 +83,7 @@
             </a>
         </div>
     </footer>
-
 </main>
-
 <script>
     document.getElementById('menuBtn').addEventListener('click', () => {
         document.getElementById('navLinks').classList.toggle('open');
