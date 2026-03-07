@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall Teams – Clutch Baseball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="nav-inner">
+        <a class="logo-wrap" href="index.html">
+            <div class="logo-icon">
+                <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRfADnMxHkqse_RyMkRfv5arqcX3O2XxxBoCybJTKTZU70nT6EKnl5_oLDFdSYdJ1B4ffwBlLQPypkiLQpWu6ySYfjZNGleUAqfQa62CF5ENu9z0sM3UH6R5LO2E4zW9bGwLspAVNj1-ppravTK64z0OVmX9gG25P_anjHGNEDzpmGZLALW3gPo84E=w16383" alt="Clutch Baseball" onerror="this.style.display='none'">
+            </div>
+            Clutch Baseball
+        </a>
+        <button class="menu-toggle" id="menuBtn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="fall-teams.html" class="active">Fall Teams</a></li>
+            <li><a href="facilities.html">Facilites</a></li>
+            <li><a href="interest-form.html">Interest Form</a></li>
+        </ul>
+        <button class="nav-search" aria-label="Search">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+        </button>
+    </div>
+</header>
+
+<main>
+
+    <div class="page-hero fall-hero-text">
+        <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSwvioh-XUThzrRIrvcHVPN6fejC4A7qAfcM5ri8YQPjSosYSxXeZSj6mMT8Qi1uEauVBBdGlAZznBxXTLXAfEq_gJQijBIChu8oqjEttbVaydYoYTxDoU7-smHBdmxdh8CiiPyHnZrU97ti8YfMTv4fjatPSBEjlzNuU58D6DnYCQHhbzdmSuQqYc=w1280" alt="">
+        <div class="page-hero-title">Fall Teams</div>
+    </div>
+
+    <div class="inner-wrap">
+
+        <h2 class="section-title">Fall 2025 Baseball – 12U &amp; 13U Teams</h2>
+
+        <p class="fall-intro">
+            We're excited to announce that our Fall season will include <strong>12U</strong> and <strong>13U teams</strong>!
+            Tryouts will take place in <strong>June</strong> — please use the interest form below to be notified
+            of the exact date and location.
+        </p>
+
+        <div class="age-grid">
+            <div class="age-card">
+                <h3>12U</h3>
+                <p>Players born on/after May 1, 2013</p>
+            </div>
+            <div class="age-card">
+                <h3>13U</h3>
+                <p>Players born on/after May 1, 2012</p>
+            </div>
+        </div>
+
+        <p class="includes-heading">Each team will include:</p>
+        <ul class="includes-list">
+            <li>1 field practice per week</li>
+            <li>1 indoor hitting &amp; conditioning session per week</li>
+            <li>3–4 tournaments</li>
+            <li>Additional scrimmage games throughout the season</li>
+        </ul>
+
+        <div class="tryout-note">
+            <strong>Spread the word!</strong> Feel free to share this opportunity with others in your
+            Little League community — we're always looking for dedicated players ready to grow their game.
+        </div>
+
+        <a class="cta-inline" href="interest-form.html">Sign Up for Tryout Updates →</a>
+
+    </div>
+
+    <footer>
+        <div class="footer-ig">
+            <a href="https://www.instagram.com/clutchbaseballacademy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+</main>
+
+<script>
+    document.getElementById('menuBtn').addEventListener('click', () => {
+        document.getElementById('navLinks').classList.toggle('open');
+    });
+</script>
+</body>
+</html>
