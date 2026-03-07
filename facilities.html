@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
     <div class="nav-inner">
         <a class="logo-wrap" href="index.html">
-            <div class="logo-icon">
-                <img src="logo.png" alt="Clutch Baseball" onerror="this.style.display='none'">
-            </div>
+            <img class="logo-img" src="logo.png" alt="Clutch Baseball">
             Clutch Baseball
         </a>
         <button class="menu-toggle" id="menuBtn" aria-label="Menu">
@@ -33,62 +30,47 @@
         </button>
     </div>
 </header>
-
 <main>
-
-    <div class="page-hero">
+    <div class="page-banner">
         <img src="turf_feild.png" alt="">
-        <div class="page-hero-title">Facilites</div>
+        <div class="page-banner-title">Facilites</div>
     </div>
 
     <div class="inner-wrap">
+        <h2 class="section-heading">Our Facilities</h2>
 
-        <h2 class="section-title">Our Facilities</h2>
-
-        <p class="facilities-intro">
-            We're proud to train at a variety of high-quality locations that support both skill development
-            and team training. Our primary facilities include <strong>turf fields throughout the San Mateo
-            school district</strong>, <strong>Barrel Up in Belmont</strong> — a premier indoor training
-            center — and <strong>Woodside Priory High School</strong>. With flexible training locations
-            across the Peninsula, we're able to reach players in multiple areas and offer convenient
-            access to top-tier coaching and development opportunities.
-        </p>
+        <p class="facilities-intro">We're proud to train at a variety of high-quality locations that support both skill development and team training. Our primary facilities include <strong>turf fields throughout the San Mateo school district</strong>, <strong>Barrel Up in Belmont</strong>—a premier indoor training center—and <strong>Woodside Priory High School</strong>. With flexible training locations across the Peninsula, we're able to reach players in multiple areas and offer convenient access to top-tier coaching and development opportunities.</p>
 
         <div class="facilities-grid">
             <div class="facility-card">
-                <img src="turf_feild.png" alt="San Mateo Turf Fields"
-                    onerror="this.src='https://placehold.co/800x450/dde5ee/073763?text=San+Mateo+Fields'">
+                <img src="turf_feild.png" alt="San Mateo Turf Fields">
                 <div class="facility-card-body">
                     <h3>San Mateo School District Turf Fields</h3>
                     <p>Full-size turf fields providing excellent playing and practice surfaces for team training and development.</p>
                 </div>
             </div>
             <div class="facility-card">
-                <img src="hitting.jpg" alt="Barrel Up Belmont"
-                    onerror="this.src='https://placehold.co/800x450/dde5ee/073763?text=Barrel+Up+Belmont'">
+                <img src="hitting.jpg" alt="Barrel Up Belmont">
                 <div class="facility-card-body">
                     <h3>Barrel Up – Belmont</h3>
                     <p>A premier indoor training center equipped with batting cages and professional-grade training equipment for hitting and conditioning sessions.</p>
                 </div>
             </div>
             <div class="facility-card">
-                <img src="prioryfeild.png" alt="Woodside Priory"
-                    onerror="this.src='https://placehold.co/800x450/dde5ee/073763?text=Woodside+Priory'">
+                <img src="prioryfeild.png" alt="Woodside Priory">
                 <div class="facility-card-body">
                     <h3>Woodside Priory High School</h3>
                     <p>Home field of Head Coach Kyle Barret's varsity program, offering top-quality baseball infrastructure on the Peninsula.</p>
                 </div>
             </div>
             <div class="facility-card">
-                <img src="weightroom.png" alt="Weight Room"
-                    onerror="this.src='https://placehold.co/800x450/dde5ee/073763?text=Weight+Room'">
+                <img src="weightroom.png" alt="Weight Room">
                 <div class="facility-card-body">
                     <h3>Strength &amp; Conditioning</h3>
                     <p>State-of-the-art weight room facilities supporting our players' athletic development and conditioning programs.</p>
                 </div>
             </div>
         </div>
-
     </div>
 
     <footer>
@@ -102,9 +84,7 @@
             </a>
         </div>
     </footer>
-
 </main>
-
 <script>
     document.getElementById('menuBtn').addEventListener('click', () => {
         document.getElementById('navLinks').classList.toggle('open');
