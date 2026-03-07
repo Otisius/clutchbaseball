@@ -112,7 +112,7 @@ footer { background: #1a3050; padding: 20px 24px; display: flex; align-items: ce
     height: 300px; /* Or whatever height you set */
     object-fit: cover; 
     /* Change 'center' to 'bottom' or 'top' to move the camera view */
-    object-position: bottom; 
+    object-position: center; 
 }
 .facility-card-body { padding: 16px 18px 18px; background: #f8f9fb; }
 .facility-card-body h3 { font-size: 15px; font-weight: 700; color: #073763; margin-bottom: 6px; }
