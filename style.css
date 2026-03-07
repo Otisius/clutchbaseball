@@ -94,9 +94,19 @@ footer { background: #1a3050; padding: 20px 24px; display: flex; align-items: ce
 /* FACILITIES */
 .facilities-intro { font-size: 16px; color: #444; line-height: 1.85; margin-bottom: 40px; }
 .facilities-intro strong { color: #073763; }
-.facilities-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.facilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 30px; /* Space between the cards, adjust to your liking */
+    margin-top: 30px;
+}
 .facility-card { border-radius: 4px; overflow: hidden; box-shadow: 0 1px 8px rgba(0,0,0,0.1); }
-.facility-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+.facility-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: adds a nice rounded corner */
+}
 .facility-card-body { padding: 16px 18px 18px; background: #f8f9fb; }
 .facility-card-body h3 { font-size: 15px; font-weight: 700; color: #073763; margin-bottom: 6px; }
 .facility-card-body p { font-size: 13px; color: #555; line-height: 1.6; }
