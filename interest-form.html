@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
     <div class="nav-inner">
         <a class="logo-wrap" href="index.html">
-            <div class="logo-icon">
-                <img src="logo.png" alt="Clutch Baseball" onerror="this.style.display='none'">
-            </div>
+            <img class="logo-img" src="logo.png" alt="Clutch Baseball">
             Clutch Baseball
         </a>
         <button class="menu-toggle" id="menuBtn" aria-label="Menu">
@@ -33,17 +30,8 @@
         </button>
     </div>
 </header>
-
 <main>
-
     <div class="inner-wrap">
-        <h1 style="font-family:'Barlow Condensed',Arial,sans-serif;font-size:clamp(28px,4vw,44px);font-weight:800;color:#073763;letter-spacing:0.04em;margin-bottom:16px;">
-            Interest Form
-        </h1>
-        <p class="form-intro">
-            Sign up to receive updates on tryouts, camps, and clinics. Fill out the form below and
-            we'll be in touch with details as they become available.
-        </p>
         <div class="form-wrap">
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScsIs-SPhTVDzo0_dPCSQOk5SHLZUUZHVt1sTEL30go0EepRw/viewform?embedded=true"
@@ -66,9 +54,7 @@
             </a>
         </div>
     </footer>
-
 </main>
-
 <script>
     document.getElementById('menuBtn').addEventListener('click', () => {
         document.getElementById('navLinks').classList.toggle('open');
