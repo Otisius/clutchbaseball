@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
     <div class="nav-inner">
         <a class="logo-wrap" href="index.html">
-            <div class="logo-icon">
-                <img src="logo.png" alt="Clutch Baseball" onerror="this.style.display='none'">
-            </div>
+            <img class="logo-img" src="logo.png" alt="Clutch Baseball">
             Clutch Baseball
         </a>
         <button class="menu-toggle" id="menuBtn" aria-label="Menu">
@@ -33,91 +30,60 @@
         </button>
     </div>
 </header>
-
 <main>
-
-    <div class="page-hero">
+    <div class="page-banner">
         <img src="teamwin.jpg" alt="">
-        <div class="page-hero-title">About</div>
+        <div class="page-banner-title">About</div>
     </div>
 
     <div class="inner-wrap">
 
-        <p class="about-intro">
-            Our program focuses on more than just baseball—we specialize in skill training and player
-            development while building life skills that extend beyond the field. Through focused coaching
-            and a positive environment, players learn the value of teamwork, commitment, and how to
-            overcome adversity. We're here to help athletes grow not only as players, but as confident,
-            resilient individuals.
-        </p>
+        <p class="about-intro">Our program focuses on more than just baseball—we specialize in skill training and player development while building life skills that extend beyond the field. Through focused coaching and a positive environment, players learn the value of teamwork, commitment, and how to overcome adversity. We're here to help athletes grow not only as players, but as confident, resilient individuals.</p>
 
-        <h2 class="coaches-heading">Our Coaches</h2>
+        <h2 class="section-heading">Our Coaches</h2>
 
-        <!-- Kyle Barret -->
-        <div class="coach-card">
-            <img class="coach-photo"
-                src="coachfive.jpg"
-                alt="Kyle Barret"
-                onerror="this.outerHTML='<div class=\'coach-photo-placeholder\'>⚾</div>'">
-            <div class="coach-info">
-                <h3>Kyle Barret</h3>
-                <p>
-                    Kyle's playing career includes notable achievements, such as being named Peninsula Athletic
-                    League MVP at Carlmont HS and receiving the Triple Crown Award. He earned All-American
-                    honors at Skyline College and was recognized with All-Big West accolades at D1 California
-                    State University, Northridge where he held a career .326 batting average.
-                    While at CSUN, Kyle earned his Bachelor's degree in Economics.
-                </p>
-                <p style="margin-top:12px;">
-                    Following his collegiate career, Kyle transitioned into coaching, joining the CSUN coaching
-                    staff to mentor hitters and serve as the team's first base coach during games. Specializing
-                    in infield and hitting, Kyle has spent the past five years coaching youth baseball, focusing
-                    on skill development while emphasizing personal development and teamwork. In 2023, he took on
-                    the role of Head Varsity Coach at Woodside Priory, where his leadership has propelled the
-                    program to new heights. Under his guidance, the team achieved a 30-5 record, two league
-                    championships, and secured its first-ever CCS appearance and victory.
-                </p>
+        <div class="coaches-grid">
+
+            <!-- Kyle Barret -->
+            <div class="coach-card">
+                <div class="coach-photo-wrap">
+                    <img src="coachfive.jpg" alt="Kyle Barret">
+                </div>
+                <div class="coach-name">Kyle Barret</div>
+                <div class="coach-bio">
+                    <p>Kyle's playing career includes notable achievements, such as being named Peninsula Athletic League MVP at Carlmont HS and receiving the Triple Crown Award. He earned All-American honors at Skyline College and was recognized with All-Big West accolades at D1 California State University, Northridge where he held a career .326 batting average. While at CSUN, Kyle earned his Bachelor's degree in Economics.</p>
+                    <p>Following his collegiate career, Kyle transitioned into coaching, joining the CSUN coaching staff to mentor hitters and serve as the team's first base coach during games. Specializing in infield and hitting, Kyle has spent the past five years coaching youth baseball, focusing on skill development while emphasizing personal development and teamwork. In 2023, he took on the role of Head Varsity Coach at Woodside Priory, where his leadership has propelled the program to new heights. Under his guidance, the team achieved a 30-5 record, two league championships, and secured its first-ever CCS appearance and victory.</p>
+                </div>
             </div>
-        </div>
 
-        <!-- Ramon Enriquez -->
-        <div class="coach-card">
-            <img class="coach-photo"
-                src="ramon.jpg"
-                alt="Ramon Enriquez"
-                onerror="this.outerHTML='<div class=\'coach-photo-placeholder\'>⚾</div>'">
-            <div class="coach-info">
-                <h3>Ramon Enriquez</h3>
-                <p>
-                    Coach Enriquez is a former All-Conference catcher at Skyline College and Oklahoma Baptist
-                    University, bringing advanced playing and coaching experience to Clutch Baseball. He also
-                    competed professionally in Mexico, where he developed a deep understanding of the game's
-                    mental and technical demands. Ramon is passionate about teaching catchers, refining
-                    fundamentals, and developing confident, competitive players.
-                </p>
+            <!-- Ramon Enriquez -->
+            <div class="coach-card">
+                <div class="coach-photo-wrap">
+                    <img src="ramon.jpg" alt="Ramon Enriquez">
+                </div>
+                <div class="coach-name">Ramon Enriquez</div>
+                <div class="coach-bio">
+                    <p>Coach Enriquez is a former All-Conference catcher at Skyline College and Oklahoma Baptist University, bringing advanced playing and coaching experience to Clutch Baseball. He also competed professionally in Mexico, where he developed a deep understanding of the game's mental and technical demands. Ramon is passionate about teaching catchers, refining fundamentals, and developing confident, competitive players.</p>
+                </div>
             </div>
-        </div>
 
-        <!-- Dylan Brandenburg -->
-        <div class="coach-card">
-            <img class="coach-photo" src="dylan.jpg" alt="Dylan Brandenburg"
-                onerror="this.outerHTML='<div class=\'coach-photo-placeholder\'>⚾</div>'">
-            <div class="coach-info">
-                <h3>Dylan Brandenburg</h3>
-                <p>placeholder description :( srry coach dylan</p>
+            <!-- Dylan Brandenburg -->
+            <div class="coach-card">
+                <div class="coach-photo-wrap">
+                    <img src="dylan.jpg" alt="Dylan Brandenburg">
+                </div>
+                <div class="coach-name">Dylan Brandenburg</div>
+                <div class="coach-bio"></div>
             </div>
-        </div>
 
-        <!-- Rami Redman -->
-        <div class="coach-card">
-            <img class="coach-photo" src="ramy.jpg" alt="Rami Redman"
-                onerror="this.outerHTML='<div class=\'coach-photo-placeholder\'>⚾</div>'">
-            <div class="coach-info">
-                <h3>Rami Redman</h3>
-                <p>placeholder description :( srry coach rami</p>
+            <!-- Rami Redman -->
+            <div class="coach-card">
+                <div class="coach-photo-wrap" style="background:#dde5ee;"></div>
+                <div class="coach-name">Rami Redman</div>
+                <div class="coach-bio"></div>
             </div>
-        </div>
 
+        </div>
     </div>
 
     <footer>
@@ -131,9 +97,7 @@
             </a>
         </div>
     </footer>
-
 </main>
-
 <script>
     document.getElementById('menuBtn').addEventListener('click', () => {
         document.getElementById('navLinks').classList.toggle('open');
