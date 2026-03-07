@@ -109,7 +109,7 @@ footer { background: #1a3050; padding: 20px 24px; display: flex; align-items: ce
 }
 .page-banner img {
     width: 100%;
-    height: 300px; /* Or whatever height you set */
+    height: 500px; /* Or whatever height you set */
     object-fit: cover; 
     /* Change 'center' to 'bottom' or 'top' to move the camera view */
     object-position: center; 
